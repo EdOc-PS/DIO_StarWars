@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
-
-body{
+*{
     font-family: Roboto;
+}
+body{
     color: white;
     background-image: url("/assets/img/space2.jpg");
     background-size: cover;
@@ -9,4 +10,29 @@ body{
 h1{
     -webkit-text-stroke: 1px #ffe100;
     color:transparent;
+    margin: 0;
+}
+.content{
+    padding: 1rem;
+}
+ul.character{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+}
+
+ul.character li{
+    margin: 1rem;
+    padding: 2rem 1rem 2rem 1rem;
+    background: #E5703d;
+    border-radius: 15px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+}
+ul.character li img{
+    max-width: 100%;
+    height: 100px;
 }
