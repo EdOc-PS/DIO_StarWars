@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+body{
+    font-family: Roboto;
+    color: white;
+    background-image: url("/assets/img/space2.jpg");
+    background-size: cover;
+}
+h1{
+    -webkit-text-stroke: 1px #ffe100;
+    color:transparent;
+}
