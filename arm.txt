@@ -1,0 +1,11 @@
+    
+         
+            <li>Darth Vader
+                <img src="assets/img/darth-vader.png" alt="Darth Vader">
+            </li>
+            <li>Darth Maul
+                <img src="assets/img/darth-maul.png" alt="Darth Maul">
+            </li>
+            <li>Stormtrooper
+                <img src="assets/img/stormtrooper.png" alt="Stormtrooper">
+            </li>

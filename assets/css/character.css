@@ -1,0 +1,40 @@
+
+
+.licharacter {
+    margin: .5rem;
+    padding: .5rem 1rem 2rem 1rem;
+    background: #E5703D;
+    border-radius: 15px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.licharacter .name {
+    margin: .25rem 0;
+}
+
+.licharacter .detail {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .2rem
+}
+
+.licharacter .detail img {
+    max-width: 100%;
+    height: 70px;
+    align-self: flex-end;
+    border-radius: 50%;
+}
+
+.licharacter .detail .types .type {
+    background: #E47F53;
+    border-radius: 10px;
+    padding: .2rem 1rem;
+    font-size: .6rem;
+    margin: .3rem 0;
+
+}

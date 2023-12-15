@@ -1,38 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
-*{
+
+* {
     font-family: Roboto;
 }
-body{
+
+body {
     color: white;
-    background-image: url("/assets/img/space2.jpg");
+    background-image: url('/assets/img/space2.jpg');
     background-size: cover;
 }
-h1{
-    -webkit-text-stroke: 1px #ffe100;
-    color:transparent;
+
+h1 {
+    -webkit-text-stroke: .8px #FFE81F;
+    color: transparent;
     margin: 0;
-}
-.content{
-    padding: 1rem;
-}
-ul.character{
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
 }
 
-ul.character li{
-    margin: 1rem;
-    padding: 2rem 1rem 2rem 1rem;
-    background: #E5703d;
-    border-radius: 15px;
-    height: 110px;
-    display: flex;
-    flex-direction: column;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-ul.character li img{
-    max-width: 100%;
-    height: 100px;
+
+.content {
+    padding: 1rem;
+    background: rgba(128, 128, 128, 0.2);
+    border: 2px solid #FFE91F86;
+    border-radius: 15px;
+    margin: 2rem .5rem;
+}
+
+.ulcharacter {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 2rem auto;
+    }
+
+}
+
+@media screen and (min-width: 436px) {
+    .ulcharacter {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .ulcharacter {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ulcharacter {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
 }
