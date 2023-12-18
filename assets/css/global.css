@@ -6,7 +6,7 @@
 
 body {
     color: white;
-    background-image: url('/assets/img/space2.jpg');
+    background-image: url("../img/space2.jpg");
     background-size: cover;
 }
 
