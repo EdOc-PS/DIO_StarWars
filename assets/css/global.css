@@ -24,7 +24,8 @@ ul {
 
 .content {
     padding: 1rem;
-    background: rgba(128, 128, 128, 0.2);
+    background: transparent;
+    backdrop-filter: blur(5px);
     border: 2px solid #FFE91F86;
     border-radius: 15px;
     margin: 2rem .5rem;
