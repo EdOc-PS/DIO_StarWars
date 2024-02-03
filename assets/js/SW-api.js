@@ -1,8 +1,8 @@
 const SWAPI = {}
 
-SWAPI.getCharecter = (offset, limit) => {
+SWAPI.getCharecter = (pages) => {
 
-    const url = `https://swapi.dev/api/people?offset=${offset}&limit=${limit}`;
+    const url = `https://swapi.dev/api/people?page=${pages}`;
     return  fetch(url)
       .then((response) => response.json())
       .then(jBody => jBody.results)

@@ -2,7 +2,6 @@
 .licharacter {
     margin: .5rem;
     padding: .5rem 1rem 2rem 1rem;
-    background: #E5703D;
     border-radius: 15px;
     height: 80px;
     display: flex;
@@ -23,17 +22,36 @@
 }
 
 .licharacter .detail img {
-    max-width: 100%;
+    width: 70px;
     height: 70px;
     align-self: flex-end;
     border-radius: 50%;
 }
+.licharacter .detail .types{
+    filter: brightness(1.07);
+    border-radius: 10px;
+}
 
 .licharacter .detail .types .type {
-    background: #E47F53;
     border-radius: 10px;
     padding: .2rem 1rem;
     font-size: .6rem;
     margin: .3rem 0;
+    text-transform: capitalize;
+}
 
+.jedi  {
+    background-color: #27AE59;
+}
+.rebels{
+    background-color: #FC802E;
+  }  
+.droid{
+    background-color: #5B8CD9
+}   
+.sith {
+    background-color:#FA274C
+}  
+.humans{
+    background-color: #8696a4;
 }

@@ -4,51 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/character.css">
     <title>StarWars - Wiki</title>
 </head>
 
-<bocdy>
-    <section class="content">
-        <h1>STAR WARS</h1>
-        <ul class="ulcharacter" id = "characterList">
-            <li class="licharacter">
-                <span class="name">Luke</span>
-                <div class="detail">
-                    <ul class="types">
-                        <li class="type">Rebelde</li>
-                        <li class="type">Jedi</li>
-                    </ul>
-                    <img src="assets/img/luke.png" alt="Luke">
-                </div>
-            </li>
-            <li class="licharacter">
-                <span class="name">Leia</span>
-                <div class="detail">
-                    <ul class="types">
-                        <li class="type">Rebelde</li>
-                    </ul>
-                    <img src="assets/img/leia.png" alt="Leia">
-                </div>
-            </li>
-            <li class="licharacter">
-                <span class="name">Han Solo</span>
-                <div class="detail">
-                    <ul class="types">
-                        <li class="type">Rebelde</li>
-                    </ul>
-                    <img src="assets/img/han-solo.png" alt="Han Solo">
-                </div>
-            </li>
-        </ul>
-    </section>
+<body>
+    <main>
+        <section class="content">
+            <h1>STAR WARS</h1>
+            <ul class="ulcharacter" id="characterList">
+            </ul>
 
+
+        </section>
+
+        <div class="newpages">
+            <button id="Buttonload">Trazer mais personagens de uma galaxia distante</button>
+        </div>
+    </main>
     <script src="assets/js/SW-api.js" defer></script>
     <script src="assets/js/main.js" defer></script>
-</bocdy>
+    <script src="assets/js/charecter.model.js" defer></script>
+</body>
 
 </html>
